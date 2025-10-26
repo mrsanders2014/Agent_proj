@@ -1,0 +1,9 @@
+[project]
+name = "agent-proj"
+version = "0.1.0"
+description = "Agentic project"
+readme = "README.md"
+requires-python = ">=3.12"
+[tool.hatch.envs.default]
+installer = "uv"
+dependencies = []
